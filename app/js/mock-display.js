@@ -172,9 +172,9 @@ var JSVoxels = function() {
     self.renderer.setSize( window.innerWidth, window.innerHeight );
   }, false );
 
-  this.width = 8;
-  this.depth = 8;
-  this.height = 8;
+  this.width = 4;
+  this.depth = 4;
+  this.height = 4;
   
   this.vd = new VoxelDisplay(this.width,this.depth,this.height,this);
   
